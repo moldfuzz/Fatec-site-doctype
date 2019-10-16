@@ -1,0 +1,106 @@
+/* inicial */
+.v-parallax{
+    background-size: cover;
+  }
+  body{
+  font-family: 'Courier New', Courier, monospace;
+  padding: 0;
+  margin: 0;
+  }
+  
+  .servicos-section{
+    background-size: cover;
+    padding: 60px 0;
+  }
+  
+  .section-titulo{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+  
+  .border{
+    width: 160px;
+    height: 2px;
+    background: black;
+    margin: 40px auto;
+  }
+  .servicos-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .servico-box{
+    max-width: 33.33%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .servico-icon{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border: 3px solid black;
+    color: black;
+    transform: rotate(45deg);
+    margin-bottom: 30px;
+    margin-top: 16px;
+    transition: 0.3s linear;
+  }
+  .servico-icon i{
+    line-height: 70px;
+    transform: rotate(-45deg);
+    font-size: 26px;
+  }
+  .servico-box:hover .servico-icon{
+    background: black;
+    color: #ddd;
+  }
+  .servico-titulo{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .servico-desc{
+    font-size: 16px;
+  }
+  
+  .projetos-destaques{
+    background-color:black;
+    height: 50%;
+    color:white;
+  }
+  
+  
+  
+  section{
+    padding:60px 0;
+  }
+  
+  .texto{
+    text-align:center; 
+  }
+  
+  @media screen and (min-width:960px) {
+  .home-hestia{
+    width: 50%;
+    height: 60%;
+  }
+    .servico-box{
+      max-width: 45%;
+    }
+  }
+  
+  @media screen and (max-width:768px) {
+    .servico-box{
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width:480px) {
+    .servico-box{
+      max-width: 100%;
+    }
+  }
