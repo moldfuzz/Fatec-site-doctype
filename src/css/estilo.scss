@@ -104,3 +104,113 @@
       max-width: 100%;
     }
   }
+
+  // página do hackathon
+  @import '_base.scss';
+
+html, body{
+     padding: 0;
+     margin: 0;
+     background-color: $corprincipal;
+}
+
+header{
+     @include centralizado();
+     margin-top: 50px;
+     width: 100%;
+     
+}
+.formulario{
+     @include centralizado();
+     
+}
+form{
+     text-align: center;
+     width: 30%;
+     margin: 0px 0px 0px 0px;
+     background-color: #EEEEEE;
+     border-top-left-radius: 10px ;
+     border-top-right-radius: 10px;
+}
+.tit{
+    @include centralizado();
+}
+.tit h1{
+     color: rebeccapurple;
+     border-bottom: 2px solid blue;
+}
+.camp{
+     border-bottom: 2px solid black;
+}
+input{
+     outline: none;
+     padding: 10px;
+     width: 94%;
+}
+select{
+     width: 94%;
+     padding: 10px;
+     overflow: hidden;
+     outline: none;
+}
+
+section{
+     margin-top: 40px;
+}
+.texto{
+     @include centralizado();
+     color: white;
+     width: 100%;
+}
+.texto p{
+     font-family: 'Courier New', Courier, monospace;
+     border-radius: 10px;
+     border-top: 2px solid #8a2be2;
+     border-bottom: 2px solid #8a2be2;
+     width: 55%;
+     text-align: center;
+}
+.v-card{
+     margin-left:50px;
+}
+.conteudo{
+     margin-top: 50px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+.perguntas h1{
+     font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+}
+.pergunta1{
+     font-family: 'Courier New', Courier, monospace;
+     border: white 2px solid;
+     padding: 10px;
+     border-radius: 5px;
+     margin-top: 20px;
+}
+.pergunta1 p{
+     color: white;
+}
+.ven{
+     margin-top: 50px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+.ven1 p{
+     text-align: center;
+     font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.ven1 img{
+     border-radius: 500px;
+}
+.infort {
+     margin-top: 50px;
+     text-align: center;
+     font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
