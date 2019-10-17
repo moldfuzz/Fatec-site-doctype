@@ -2,7 +2,7 @@
   <div>
      <v-parallax
          dark
-        src="../assets/universe-hackathon.png"
+        src="../assets/parralax-image.jpg"
        >
       <v-row
       align="center"
@@ -10,12 +10,13 @@
       
        >
       
-      <h4 class="subheading display-3 text-center font-weight-black">Venha fazer parte do nosso time!</h4>
-      <div class="text-center">
+      <h4 class=".title display-3 text-center font-weight-black">Venha fazer parte da 12º do nosso #Hackathon!</h4>
+        <h4 class="subtitle display-1 text-center font-weight-black">Não perca a chanche de fazer parte de nosso time!</h4>
+      </v-row>
+     
+     <div class="text-center">
           <v-btn class="ma-5" outlined color="white">saiba mais</v-btn>
       </div>
-      </v-row>
-    
         </v-parallax>
 
   <body>
@@ -91,68 +92,32 @@
     </section>
         <section class="projetos-destaques">
         <h2 class="section-titulo">{Projetos}</h2>
+        <div class="projetos-container">
+          <div class="projetos-box">
+            <div class="projetos-icon">
+            <i class="fas fa-meteor"></i>
+            </div>
+        
+            </div>
+        </div>
+        
+          
         <p class="texto">
-        Igual aos nossos? pode procurar, não há!
+        Não deixe seu negócio entrar em extinção! venha para a &lt;!DOCTYPE&gt;
         </p>
         <hr class="border"/>
         <div class="text-center">
-<v-btn class="ma-5 text-center" outlined color="white">EU QUERO</v-btn>
+<v-btn class="ma-5 text-center" outlined color="white">VEJA COMO</v-btn>
         </div>
          
     </section>
 
       <section>
-        <h2 class="section-titulo">{Palestras}</h2>
+        <h2 class="section-titulo">{Onde estamos}</h2>
         <p class="texto">
-          Buscamos incentivar cada vez mais os talentos escondidos no interior de São Paulo, compartilhando experiências, conhecimentos e sorrisos! 
+          Adoraríamos te receber em nossa casa! 
         </p>
         <hr class="border"/>
-      
-  <v-card
-    :loading="loading"
-    class="mx-auto my-12"
-    max-width="374"
-  >
-   
-
-    <v-card-title> Entenda o universo SEO - Fatec Araraquara</v-card-title>
-    <v-card-text>
-      <v-row align="center">
-        
-      </v-row>
-
-      <div class="my-4 subtitle-1 black--text">
-        Salão Azul | Terça-feira
-      </div>
-
-      <div>A convidada Daphne Helena,CEO da &lt;!DOCTYPE&gt;, falará sobre o conjunto de técnicas SEO e seus benefícios além de ensinar a como pôr em prática.</div>
-    </v-card-text>
-
-    <v-divider class="mx-4"></v-divider>
-    <v-card-text>
-      <div class="title text--primary">Reserve seu horário!</div>
-      <v-chip-group
-        v-model="selection"
-        active-class="deep-purple accent-4 white--text"
-        column
-      >
-        <v-chip>09:30</v-chip>
-        <v-chip>14:30</v-chip>
-        <v-chip>18:30</v-chip>
-      </v-chip-group>
-    </v-card-text>
-
-    <v-card-actions>
-      <v-btn
-        color="deep-purple accent-4"
-        text
-        @click="reserve"
-      >
-        Reserve
-      </v-btn>
-    </v-card-actions>
-  </v-card>
-
         
       </section>            
         
