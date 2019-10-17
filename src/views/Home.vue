@@ -2,17 +2,13 @@
   <div>
      <v-parallax
          dark
-        src="../assets/parralax-image.jpg"
+        src="../assets/parralax-image1.jpg"
        >
-      <v-row
-      align="center"
-      justify="center"
+     
       
-       >
-      
-      <h4 class=".title display-3 text-center font-weight-black">Venha fazer parte da 12º do nosso #Hackathon!</h4>
-        <h4 class="subtitle display-1 text-center font-weight-black">Não perca a chanche de fazer parte de nosso time!</h4>
-      </v-row>
+      <h1 class=" text-center ">Embarque na 12º edição do #HACKATHON &lt;!DOCTYPE&gt;!</h1>
+        
+  
      
      <div class="text-center">
           <v-btn class="ma-5" outlined color="white">saiba mais</v-btn>
@@ -144,3 +140,8 @@
   }
 </script>
 
+<style scoped>
+h1{
+  font-size: 3rem;
+}
+</style>
