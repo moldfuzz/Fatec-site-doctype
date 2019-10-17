@@ -94,12 +94,32 @@ section {
   text-align: center;
   font-size: 1.5rem;
 }
+.sobre-section{
+  width: 100%;
+}
+.sobre-section h1{
+  text-align: center;
+}
+.sobre-section-row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.sobre-section-col{
+  flex:50%;
+}
+.sobre{
+  padding-right: 30px;
+}
+.sobre p{
+  text-align: justify;
+  margin-bottom:20px;
+}
 
+.video{
+  padding-left:30px;
+}
+ 
 @media screen and (min-width: 960px) {
-  .home-hestia {
-    width: 50%;
-    height: 60%;
-  }
   .servico-box {
     max-width: 45%;
   }
@@ -114,6 +134,16 @@ section {
 @media screen and (max-width: 768px) {
   .servico-box {
     max-width: 50%;
+  }
+  .sobre-section-col{
+    flex:100%;
+    margin:10px 0;
+  }
+  .sobre,.video{
+    padding:0;
+  }
+  .sobre{
+    text-align: center;
   }
 }
 
