@@ -2,11 +2,12 @@
   <div>
      <v-parallax
          dark
-        src="../assets/parralax-image1.jpg"
+        src="../assets/planetas-hackathon.jpg"
        >
      
       
-      <h1 class=" text-center ">Embarque na 12º edição do #HACKATHON &lt;!DOCTYPE&gt;!</h1>
+      <h1 class=" text-center titulo-parallax">#HACKATHON &lt;!DOCTYPE&gt;</h1>
+      <h3 class="text-center sub-parallax ">Um evento de outro mundo!</h3>
         
   
      
@@ -40,7 +41,7 @@
             </div>
             <h3 class="servico-titulo">Acessibilidade</h3>
             <p class="servico-desc">
-              Nós da  &lt;!DOCTYPE&gt; acreditamos que todos os nossos clientes merecem uma boa experiência com nossos produtos. Assim, fornecemos serviços que contribuem para proporcionar ou ampliar a inclusão de pessoas com deficiência.  
+              Nós da  &lt;!DOCTYPE&gt; garantimos que nossos serviços proporcionem a inclusão de pessoas com ou sem deficiência.  
             </p>
           </div>
 
@@ -96,28 +97,16 @@
         
             </div>
         </div>
-        
-          
         <p class="texto">
-        Não deixe seu negócio entrar em extinção! venha para a &lt;!DOCTYPE&gt;
+        Não deixe seu negócio entrar em extinção, junte-se a &lt;!DOCTYPE&gt;!
         </p>
         <hr class="border"/>
         <div class="text-center">
-<v-btn class="ma-5 text-center" outlined color="white">VEJA COMO</v-btn>
+<v-btn class="ma-5 text-center" outlined color="white">PORTFÓLIO</v-btn>
         </div>
          
     </section>
-
-      <section>
-        <h2 class="section-titulo">{Onde estamos}</h2>
-        <p class="texto">
-          Adoraríamos te receber em nossa casa! 
-        </p>
-        <hr class="border"/>
-        
-      </section>            
-        
-      
+  
   </body>
 
   </div>
@@ -141,7 +130,8 @@
 </script>
 
 <style scoped>
-h1{
-  font-size: 3rem;
-}
+
+/* .v-parallax{
+  background-size: contain;
+} */
 </style>
