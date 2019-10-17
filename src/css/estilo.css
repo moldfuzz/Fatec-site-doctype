@@ -67,8 +67,7 @@ body {
   color: #ddd;
 }
 .projetos-icon:hover {
-  background: rgb(16, 25, 49);
-  color: rgb(235, 117, 20);
+  color: orange;
 }
 
 .servico-titulo {
@@ -82,8 +81,7 @@ body {
 }
 
 .projetos-destaques {
-  background-color: #182C61;
-  height: 50%;
+  font-weight: bolder;
   color: white;
   padding:60px;
 }

@@ -87,7 +87,14 @@
         </div>
         </div>
     </section>
-        <section class="projetos-destaques">
+     
+       <v-parallax
+         dark
+        src="../assets/planetas-hackathon.jpg"
+       >
+   
+     <section class="projetos-destaques">
+       
         <h2 class="section-titulo">{Projetos}</h2>
         <div class="projetos-container">
           <div class="projetos-box">
@@ -102,36 +109,15 @@
         </p>
         <hr class="border"/>
         <div class="text-center">
-<v-btn class="ma-5 text-center" outlined color="white">PORTFÓLIO</v-btn>
+      <v-btn class="ma-5 text-center" outlined color="white">PORTFÓLIO</v-btn>
         </div>
          
     </section>
+         </v-parallax>  
+     
+        
   
   </body>
 
   </div>
 </template>
-
-<script>
-  export default {
-    data: () => ({
-      loading: false,
-      selection: 1,
-    }),
-
-    methods: {
-      reserve () {
-        this.loading = true
-
-        setTimeout(() => (this.loading = false), 2000)
-      },
-    },
-  }
-</script>
-
-<style scoped>
-
-/* .v-parallax{
-  background-size: contain;
-} */
-</style>
